@@ -1,0 +1,6 @@
+*.txt
+!map.txt
+test.py
+__pycache__
+*.vscode
+temp*
