@@ -166,5 +166,3 @@ def printmap(season = None):
 
     if season != None:
         print(season)
-
-printmap()

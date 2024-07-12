@@ -277,7 +277,7 @@ def inputMove(string, season):
         elif re.match("^[A-Z]{3} S [A-Z]{3}-[A-Z]{3}$", string): # atk support
             regions = string.split(" ")
             reg1 = regions[0]
-            reg2, reg3 = tuple(regions[1].split("-"))
+            reg2, reg3 = tuple(regions[2].split("-"))
 
             for i in (reg1, reg2, reg3):
                 if i not in diz:
